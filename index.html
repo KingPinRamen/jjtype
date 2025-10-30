@@ -1,16 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<title>Loading</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+.menu {display: none}
+.bgimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("");
+  min-height: 90%;
+}
+</style>
 </head>
 <body>
-    <h1 style="font-family: sans-serif; color: blue"> This is a heading!</h1>
-<p>
-Hello World!
-<img src="Dog.jpg">
 
-</p>
-</body>
-</html>
+    <!-- Navbar (sit on top) -->
+<div class="Navbar">
+  <div class="Opacity" id="myNavbar">
+    <a href="#" class="Navbar">HOME</a>
+    <a href="#fonts" class="Navbar">FONTS</a>
+    <a href="#about" class="Navbar">ABOUT</a>
+    <a href="#myMap" class="Navbar">CONTACT</a>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="Loading Screen" id="home">
+  <div class="Main Screen ">
+    <span class="w3-tag w3-xlarge">Open from 10am to 12pm</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white w3-hide-small" style="font-size:100px">thin<br>CRUST PIZZA</span>
+    <span class="w3-text-white w3-hide-large w3-hide-medium" style="font-size:60px"><b>thin<br>CRUST PIZZA</b></span>
+    <p><a href="#menu" class="w3-button w3-xxlarge w3-black">Let me see the menu</a></p>
+  </div>
+</header>
